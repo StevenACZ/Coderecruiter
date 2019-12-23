@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Google Fonts-->
+  
+  <!--Links-->
+  <link rel="stylesheet" href="./styles/register.css">
+
+  <!--Title-->
+  <title>Register</title>
+</head>
+<body>
+
+  <!--HEADER-->
+  <header class="header container">
+    <a href="./index.html">
+      <img class="header__image" src="./images/logo.png" alt="Logo">
+    </a>
+  </header>
+
+  <!--MAIN-->
+  <main class="main container">
+    <div class="register">
+      <h1 class="register__title">Registrate</h1>
+      <p class="register__info">Datos Personales!<br>Por favor completa tus datos</p>
+
+      <form class="register__form" action="">
+        
+        <div class="register__container">
+          <div class="left">
+            Nombre<br>
+            <input type="text">
+    
+            Apellido<br>
+            <input type="text">
+          </div>
+  
+          <div class="right">
+            Nombre<br>
+            <input type="text">
+    
+            Apellido<br>
+            <input type="text">
+          </div>
+        </div>
+
+        <div class="center">
+          Sexo<br>
+          <div>
+            <div><p>F</p><input type="radio"></div>
+            <div><p>M</p><input type="radio"></div>
+          </div>
+        </div>
+
+        <div class="register__container">
+          <div class="left">
+            Usuario<br>
+            <input type="text">
+          </div>
+  
+          <div class="right">
+            Contraseña<br>
+            <input type="text">
+          </div>
+        </div>
+
+        <div class="center">
+          Correo Electronico<br>
+          <input type="text">
+        </div>
+
+        <div class="center texto">
+          <p>Dato de la carrera</p>
+          <p>Por favor completa tus datos</p>
+        </div>
+
+        <div class="center">
+          Especialidad<br>
+          <input list="browsers" name="browser" placeholder="Selecciona">
+          <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+        </div>
+
+        <div class="center">
+          Especialidad<br>
+          <textarea rows="10"></textarea>
+        </div>
+
+        <div class="center texto">
+          <p>Redes Sociales</p>
+          <p>Por favor completa tus datos</p>
+        </div>
+
+        <div class="center">
+          Facebook<br>
+          <input type="text">
+        </div>
+
+        <div class="center">
+          Twitter<br>
+          <input type="text">
+        </div>
+
+        <div class="center">
+          GitHub<br>
+          <input type="text">
+        </div>
+
+        <div class="center">
+          Linkedin<br>
+          <input type="text">
+        </div>
+
+        <div class="center">
+          Codepen<br>
+          <input type="text">
+        </div>
+
+        <a class="primary-btn" href="">Registrar</a>
+      </form>
+
+    </div>
+  </main>
+
+  <!--FOOTER-->
+  <footer class="footer container">
+    <p>Todos los derechos reservados | 2019</p>
+    <img src="./images/logo.png">
+  </footer>
+
+</body>
+</html>
